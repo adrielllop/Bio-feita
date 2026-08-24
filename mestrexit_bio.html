@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050505">
+<title>MestreXit • Bio</title>
+<style>
+:root{--orange:#ff6500;--wa:#25d366;--dc:#5865f2}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif}
+body{background:#050505;color:#fff;display:flex;justify-content:center;padding:28px 14px 45px;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:-30%;z-index:-1;background:radial-gradient(circle at 50% 8%,rgba(255,101,0,.2),transparent 28%)}
+.container{width:100%;max-width:520px;text-align:center}
+.profile{animation:show .7s ease both}
+.logo{width:118px;height:118px;object-fit:cover;border-radius:50%;border:3px solid var(--orange);box-shadow:0 0 30px rgba(255,101,0,.45)}
+h1{font-size:28px;margin:14px 0 5px}
+.bio{font-size:14px;color:#aaa;margin:0}
+.line{width:72px;height:3px;background:var(--orange);border-radius:20px;margin:16px auto 24px;box-shadow:0 0 14px var(--orange)}
+.buttons{display:flex;flex-direction:column;gap:14px}
+.btn{position:relative;min-height:78px;padding:12px 16px;border-radius:18px;background:linear-gradient(135deg,#151515,#090909);border:1px solid #292929;display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none;text-align:left;box-shadow:0 9px 25px rgba(0,0,0,.35);transition:.2s ease;overflow:hidden}
+.btn:after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--orange)}
+.btn.wa:after{background:var(--wa)} .btn.dc:after{background:var(--dc)}
+.btn:hover{transform:translateY(-3px);border-color:var(--orange)}
+.icon{width:53px;height:53px;flex:0 0 53px;border-radius:14px;object-fit:cover;background:#171717}
+.info{flex:1;min-width:0}.title{font-size:16px;font-weight:700}.desc{font-size:12px;color:#999;margin-top:5px}
+.arrow{font-size:27px;color:var(--orange)} .wa .arrow{color:var(--wa)} .dc .arrow{color:var(--dc)}
+.footer{margin-top:25px;color:#555;font-size:11px}.footer b{color:var(--orange)}
+@keyframes show{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@media(max-width:380px){.logo{width:100px;height:100px}h1{font-size:25px}}
+</style>
+</head>
+<body>
+<main class="container">
+<section class="profile">
+<img class="logo" src="https://i.postimg.cc/0NCCZ4vc/file-00000000779471f585f8cb023dfdc1f3.png" alt="Logo principal">
+<h1>MestreXit</h1>
+<p class="bio">🔥 Suporte • Grupos • Conteúdos</p>
+<div class="line"></div>
+</section>
+
+<section class="buttons">
+<a class="btn dc" href="https://discord.com/channels/1496243592631423056/1504290727226511412" target="_blank" rel="noopener noreferrer">
+<img class="icon" src="https://i.postimg.cc/NjtdL7rP/b5d4ce10a744861ffd3314d20d116976.jpg" alt="Discord">
+<div class="info"><div class="title">Contato para suporte</div><div class="desc">Fale com o suporte pelo Discord</div></div><span class="arrow">›</span>
+</a>
+
+<a class="btn wa" href="https://wa.me/556481106501" target="_blank" rel="noopener noreferrer">
+<img class="icon" src="https://i.postimg.cc/SKsgc7f3/c4d3ed9d48ee3d92225b3545813d8bb6.jpg" alt="WhatsApp">
+<div class="info"><div class="title">Contato para suporte</div><div class="desc">Atendimento pelo WhatsApp</div></div><span class="arrow">›</span>
+</a>
+
+<a class="btn dc" href="https://discord.gg/5M4fmtDzp" target="_blank" rel="noopener noreferrer">
+<img class="icon" src="https://i.postimg.cc/YC80V2rv/b5d4ce10a744861ffd3314d20d116976.jpg" alt="Discord">
+<div class="info"><div class="title">Grupo de Xit grátis e pagos</div><div class="desc">Entre no nosso grupo do Discord</div></div><span class="arrow">›</span>
+</a>
+
+<a class="btn wa" href="https://chat.whatsapp.com/LszGxTvXGbJ34sxC1taJEK?s=cl&p=a&ilr=4" target="_blank" rel="noopener noreferrer">
+<img class="icon" src="https://i.postimg.cc/SKsgc7f3/c4d3ed9d48ee3d92225b3545813d8bb6.jpg" alt="WhatsApp">
+<div class="info"><div class="title">Grupo de Xit grátis e pagos</div><div class="desc">Entre no nosso grupo do WhatsApp</div></div><span class="arrow">›</span>
+</a>
+</section>
+
+<div class="footer">© 2026 <b>MestreXit</b> • Todos os direitos reservados</div>
+</main>
+</body>
+</html>
